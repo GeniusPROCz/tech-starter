@@ -2490,7 +2490,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32F4:STM32F446RETx")
-		(at 54.61 80.01 0)
+		(at 87.63 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2499,7 +2499,7 @@
 		(fields_autoplaced yes)
 		(uuid "e973b478-d5b3-421f-b4e6-8cca762c0b8d")
 		(property "Reference" "U1"
-			(at 59.2933 125.73 0)
+			(at 92.3133 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2508,7 @@
 			)
 		)
 		(property "Value" "STM32F446RETx"
-			(at 59.2933 128.27 0)
+			(at 92.3133 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 36.83 123.19 0)
+			(at 69.85 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2527,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f446re.pdf"
-			(at 54.61 80.01 0)
+			(at 87.63 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2536,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64"
-			(at 54.61 80.01 0)
+			(at 87.63 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,6 +2741,48 @@
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 21.59)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efa4ad20-026b-4f4f-bd8d-a347b34e01c5")
+		(property "Sheetname" "Power brick"
+			(at 21.59 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerbrick.kicad_sch"
+			(at 21.59 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TechStarter"
+				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1"
+					(page "2")
 				)
 			)
 		)
