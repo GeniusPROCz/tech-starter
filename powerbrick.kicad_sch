@@ -1498,7 +1498,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3,4k"
 			(at 111.76 31.75 90)
 			(effects
 				(font
@@ -1895,7 +1895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680nF"
+		(property "Value" "680uF"
 			(at 74.93 41.9099 0)
 			(effects
 				(font
@@ -2031,7 +2031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "220uF"
 			(at 156.21 45.7199 0)
 			(effects
 				(font
@@ -2246,7 +2246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "220uF"
 			(at 127 45.7199 0)
 			(effects
 				(font
