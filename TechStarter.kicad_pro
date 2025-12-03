@@ -52,7 +52,76 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "drill_out_of_range|200350000|45000000|b9928f2c-25de-4b03-9d2f-93b8c76d7ece|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|200350000|46200000|d6bdab88-cde3-4bf2-ab52-44a6abdaf179|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|200350000|47400000|1e698b5a-f250-46a0-b0c6-f7bc2d7d8362|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|201750000|45000000|8674bbba-5599-4a13-aae3-fddd86a02a54|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|201750000|46200000|5ad0de68-6c3b-4b78-8a2b-db27877c079b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|201750000|47400000|d3abde6c-f5f6-40cc-8bf3-952961907741|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|242235000|109250000|a7ed4da7-5818-406e-b620-3167d59f4de4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|242235000|110250000|510969f9-46cf-4000-b583-7a4d1bd4c88b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|242235000|111250000|b0c57ad1-e27b-4977-92af-aae1b6445d0e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|242235000|112250000|a3b2e005-d9e2-4d4f-abcc-b4cd46435522|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|243235000|109250000|1a2c2c37-2ac0-445b-a203-fbb63eac19a0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|243235000|110250000|08b0ff7a-7465-4a6a-8db5-ebf2da2acaba|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|243235000|111250000|05fa25b2-c982-487c-b21b-687c8caefb2c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|243235000|112250000|e2e75d3c-b134-4b0e-a332-e33df619c309|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|244235000|109250000|7f5f2450-913f-43e4-8611-0e61d165f110|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|244235000|110250000|632e31ea-20f6-489e-a057-83ff0cf1f24f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|244235000|111250000|219d6f46-8271-456c-8b77-c4e26eca8215|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -560,12 +629,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

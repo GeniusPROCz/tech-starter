@@ -559,6 +559,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2615,6 +2765,12 @@
 		(uuid "47d8d6d3-5d49-4693-8e96-c4e713437ac9")
 	)
 	(junction
+		(at 264.16 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd68770-a74f-49fb-bdea-f8558cd6d175")
+	)
+	(junction
 		(at 41.91 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3568,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 142.24) (xy 264.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9e2a94-c4f1-42a2-8522-60508caef183")
+	)
+	(wire
+		(pts
 			(xy 24.13 118.11) (xy 24.13 119.38)
 		)
 		(stroke
@@ -3605,6 +3771,16 @@
 			(type default)
 		)
 		(uuid "b10c002e-24fe-45f5-b476-16f7a8ec65cb")
+	)
+	(wire
+		(pts
+			(xy 264.16 142.24) (xy 275.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e7a99a-bbde-4466-b678-c3c397fd74b3")
 	)
 	(wire
 		(pts
@@ -4396,7 +4572,7 @@
 	)
 	(global_label "TX6"
 		(shape input)
-		(at 275.59 142.24 180)
+		(at 262.89 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4406,7 +4582,7 @@
 		)
 		(uuid "88432e67-597f-46d9-b9e2-14b5f8d74d0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.2182 142.24 0)
+			(at 256.5182 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,36 +4705,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 284.48 86.36) (xy 284.48 135.89) (xy 223.52 135.89) (xy 223.52 86.36)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 69255e2b-2543-4039-bcbc-291897bdbbe8)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 180.34 62.23) (xy 219.71 62.23) (xy 219.71 12.7) (xy 180.34 12.7)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 8ebe5a68-055b-42f5-a4d6-106b07f0a1f5)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 219.71 86.36) (xy 250.19 86.36) (xy 284.48 86.36) (xy 284.48 30.48) (xy 284.48 24.13) (xy 284.48 12.7)
 				(xy 284.48 12.7) (xy 267.97 12.7) (xy 257.81 12.7) (xy 255.27 12.7) (xy 255.27 12.7) (xy 254 12.7)
 				(xy 219.71 12.7)
@@ -4570,7 +4716,37 @@
 			(fill
 				(type none)
 			)
-			(uuid b62b99ab-d862-4418-b17b-8296d12832b6)
+			(uuid 547a71d0-1d5d-4179-8557-1b9e6a0497dd)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 284.48 86.36) (xy 284.48 135.89) (xy 223.52 135.89) (xy 223.52 86.36)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7d32cc9e-4242-440b-9a9d-e1106e4a5df0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 255.27 165.1) (xy 284.48 165.1) (xy 284.48 135.89) (xy 255.27 135.89)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9bf31c38-b097-424e-9bae-b1be7c55c1cb)
 		)
 	)
 	(rule_area
@@ -4587,13 +4763,13 @@
 			(fill
 				(type none)
 			)
-			(uuid c0263536-acc9-45be-b5ec-89b0acaabc55)
+			(uuid bd9bcd01-53ee-4410-bc37-febdc05b7848)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 265.43 165.1) (xy 284.48 165.1) (xy 284.48 135.89) (xy 265.43 135.89)
+				(xy 180.34 62.23) (xy 219.71 62.23) (xy 219.71 12.7) (xy 180.34 12.7)
 			)
 			(stroke
 				(width 0)
@@ -4602,7 +4778,7 @@
 			(fill
 				(type none)
 			)
-			(uuid d23991c9-9710-48f9-9a73-de9f8a3deabf)
+			(uuid dadae600-c33b-4d20-8d6c-9c6f1e395890)
 		)
 	)
 	(symbol
@@ -9812,7 +9988,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 147.32 0)
+		(at 264.16 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9820,6 +9996,72 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ea9148-c257-4981-aa29-5e9e7d5999f5")
+		(property "Reference" "#PWR0116"
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6093b8a1-12de-4f4b-892c-707a0a5b55ec")
+		)
+		(instances
+			(project "TechStarter"
+				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/9ccfbc8b-3421-4d2c-8f10-e495ba8db217"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97ea9148-c257-4981-aa29-5e9e7d5999f6")
 		(property "Reference" "#PWR061"
 			(at 275.59 153.67 0)
 			(effects
@@ -9865,7 +10107,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6093b8a1-12de-4f4b-892c-707a0a5b55ec")
+			(uuid "6093b8a1-12de-4f4b-892c-707a0a5b55ed")
 		)
 		(instances
 			(project "TechStarter"
@@ -11392,6 +11634,76 @@
 			(project "TechStarter"
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/9ccfbc8b-3421-4d2c-8f10-e495ba8db217"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 264.16 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee4aa25-b692-4cbf-bdd9-821d7dacfd5c")
+		(property "Reference" "D2"
+			(at 266.7 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 266.7 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3b33573-c33d-4dfc-a2ef-574a665e7971")
+		)
+		(pin "1"
+			(uuid "82593b0f-959c-4922-a77d-0e3487a9209f")
+		)
+		(instances
+			(project ""
+				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/9ccfbc8b-3421-4d2c-8f10-e495ba8db217"
+					(reference "D2")
 					(unit 1)
 				)
 			)

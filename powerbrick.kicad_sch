@@ -2180,22 +2180,10 @@
 		(uuid "3e14c5c1-f34c-419a-9dc2-c1e5e253e8f5")
 	)
 	(junction
-		(at 215.9 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57b80334-d0c3-4139-8d59-f23a96c1476d")
-	)
-	(junction
 		(at 133.8713 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b820db4-3b89-40d7-ba38-c81ad957b9dc")
-	)
-	(junction
-		(at 245.11 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76e2ac66-0f11-4515-bba2-5261a8b7d7b6")
 	)
 	(junction
 		(at 107.95 40.64)
@@ -2319,16 +2307,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 25.4) (xy 154.94 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59dbbc3e-022d-4a2d-9692-8a95a42b8534")
-	)
-	(wire
-		(pts
 			(xy 184.15 93.98) (xy 166.37 93.98)
 		)
 		(stroke
@@ -2336,16 +2314,6 @@
 			(type default)
 		)
 		(uuid "5ac8ac43-2a75-435c-8dcf-816d65cbef49")
-	)
-	(wire
-		(pts
-			(xy 138.43 25.4) (xy 146.05 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4e756d-7d2a-4109-9bb9-4d456c7a803c")
 	)
 	(wire
 		(pts
@@ -2449,16 +2417,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 105.41) (xy 224.79 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f22b9ed-660f-40d7-91a0-beb9049f8f5d")
-	)
-	(wire
-		(pts
 			(xy 149.86 83.82) (xy 161.29 83.82)
 		)
 		(stroke
@@ -2509,16 +2467,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 105.41) (xy 240.03 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdcc8c3e-31a2-4344-b157-53fbf336a743")
-	)
-	(wire
-		(pts
 			(xy 118.11 40.64) (xy 123.19 40.64)
 		)
 		(stroke
@@ -2566,99 +2514,6 @@
 			(type default)
 		)
 		(uuid "febdb2c0-b3f3-4a19-8332-7743a18da86a")
-	)
-	(global_label "Vbat"
-		(shape input)
-		(at 142.24 25.4 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38ca845c-fb2e-463f-8406-b192d91b51a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 18.3025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 232.41 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06e64888-8dd9-4841-8974-7b1dbd5410cc")
-		(property "Reference" "U13"
-			(at 232.41 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 232.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 232.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 234.95 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 232.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b0c2d2cb-771c-4a3a-8b0d-f6e00b7b6b7e")
-		)
-		(pin "1"
-			(uuid "21db44c5-6caa-4369-9349-6a26a54dd7a4")
-		)
-		(pin "2"
-			(uuid "97a1b5b7-c908-4cf3-be90-8b60659df7f2")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2799,72 +2654,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 232.41 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e8358af-301e-4dab-a762-6c99889ca1f3")
-		(property "Reference" "#PWR067"
-			(at 232.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5af0e8cc-e9c2-457c-afb4-37d935d8b422")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 111.76 35.56 90)
 		(unit 1)
@@ -2927,75 +2716,6 @@
 			(project ""
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 215.9 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f4e30f7-2d38-46af-9e92-80699511575e")
-		(property "Reference" "C22"
-			(at 219.71 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF/6,3V"
-			(at 216.916 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 216.8652 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce3156b7-964a-46f4-b794-f49176b3df3b")
-		)
-		(pin "2"
-			(uuid "1cd89967-8c37-44af-b8f5-34cf49793489")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3405,72 +3125,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 245.11 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c55e071-4a2d-458e-b154-0a8115692193")
-		(property "Reference" "#PWR087"
-			(at 245.11 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edd45693-a9eb-4a81-88ad-a14bfbe68b89")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 40.64 0)
 		(unit 1)
@@ -3595,75 +3249,6 @@
 			(project "TechStarter"
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21a1c265-d731-450f-87b5-07c646e5b653")
-		(property "Reference" "R26"
-			(at 148.336 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20k"
-			(at 150.114 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 149.86 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 149.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0ed0e53-746a-4c61-909e-fe56aba8bba8")
-		)
-		(pin "1"
-			(uuid "36a01bc8-79a4-4246-95fd-fbf74a582ac2")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3795,76 +3380,6 @@
 			(project "TechStarter"
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a1ff2d3-261d-4219-981a-5290068cc85a")
-		(property "Reference" "C23"
-			(at 248.92 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF/6,3V"
-			(at 248.92 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 246.0752 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 245.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9374587f-4e19-496c-803d-3576e4ba35d8")
-		)
-		(pin "2"
-			(uuid "89063eda-9da0-42fa-9991-7eaf4ff0b924")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4203,140 +3718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "399c6913-42be-421c-bc88-747c71bdce03")
-		(property "Reference" "R27"
-			(at 133.096 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 134.874 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.62 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f23e6bb6-94b3-4a5b-92db-2259aed578ef")
-		)
-		(pin "1"
-			(uuid "1135b650-043e-40cf-8fe1-4a9ef825fdae")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 245.11 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39bcc91d-3004-4240-beeb-60207630adf2")
-		(property "Reference" "#PWR068"
-			(at 245.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 249.174 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf7aeb07-96e5-4cfc-a7e4-01446862504d")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 203.2 74.93 0)
 		(unit 1)
@@ -4401,72 +3782,6 @@
 			(project ""
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
 					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "507438b9-8bd3-46de-b8b3-b256faadc6b7")
-		(property "Reference" "#PWR033"
-			(at 154.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dede86f9-5a75-4318-8d05-7781daadff90")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5155,71 +4470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 130.81 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83e786ee-616d-4d7e-a55c-4b9b1a8c5ae2")
-		(property "Reference" "#PWR022"
-			(at 130.81 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 130.048 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 130.81 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b1be640-28f9-4a3c-b5a9-c2ae5c6ae4f5")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 187.96 93.98 90)
 		(unit 1)
@@ -5570,72 +4820,6 @@
 			(project "TechStarter"
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae31a4f7-cf71-4c1f-8c51-f63b9875b531")
-		(property "Reference" "#PWR066"
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fa5896a-0a82-4b56-bccc-28783654a0f2")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6378,71 +5562,6 @@
 			(project ""
 				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 215.9 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1df116f-1831-4d05-8cf3-7d01ecfb6131")
-		(property "Reference" "#PWR088"
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 211.074 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 215.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e77f843-e214-45c3-ae41-047762ca34d9")
-		)
-		(instances
-			(project "TechStarter"
-				(path "/7ea2363f-6757-4fc6-83f2-16ce190d79d1/efa4ad20-026b-4f4f-bd8d-a347b34e01c5"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)
