@@ -12142,7 +12142,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a4dd4f3c-862f-48df-a37f-e085da09690c")
@@ -21381,7 +21381,7 @@
 				)
 			)
 		)
-		(property "Value" "1,2k"
+		(property "Value" "2,4k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4de29391-c0a6-4d87-bd39-d1e5d44033f4")
