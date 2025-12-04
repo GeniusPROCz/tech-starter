@@ -4705,53 +4705,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 219.71 86.36) (xy 250.19 86.36) (xy 284.48 86.36) (xy 284.48 30.48) (xy 284.48 24.13) (xy 284.48 12.7)
-				(xy 284.48 12.7) (xy 267.97 12.7) (xy 257.81 12.7) (xy 255.27 12.7) (xy 255.27 12.7) (xy 254 12.7)
-				(xy 219.71 12.7)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 547a71d0-1d5d-4179-8557-1b9e6a0497dd)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 284.48 86.36) (xy 284.48 135.89) (xy 223.52 135.89) (xy 223.52 86.36)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7d32cc9e-4242-440b-9a9d-e1106e4a5df0)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 255.27 165.1) (xy 284.48 165.1) (xy 284.48 135.89) (xy 255.27 135.89)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 9bf31c38-b097-424e-9bae-b1be7c55c1cb)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 219.71 86.36) (xy 236.22 86.36) (xy 284.48 86.36) (xy 284.48 67.31) (xy 284.48 60.96) (xy 284.48 49.53)
 				(xy 284.48 49.53) (xy 284.48 38.1) (xy 284.48 30.48) (xy 284.48 21.59) (xy 284.48 16.51) (xy 284.48 12.7)
 				(xy 219.71 12.7)
@@ -4763,7 +4716,7 @@
 			(fill
 				(type none)
 			)
-			(uuid bd9bcd01-53ee-4410-bc37-febdc05b7848)
+			(uuid 07f0559e-715f-4363-bf25-8d471d51bfd7)
 		)
 	)
 	(rule_area
@@ -4778,7 +4731,54 @@
 			(fill
 				(type none)
 			)
-			(uuid dadae600-c33b-4d20-8d6c-9c6f1e395890)
+			(uuid 25600f21-455f-4e38-9c17-db532d929186)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 284.48 86.36) (xy 284.48 135.89) (xy 223.52 135.89) (xy 223.52 86.36)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 77773d8d-df75-433b-93a8-76dacf5abfc9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 255.27 165.1) (xy 284.48 165.1) (xy 284.48 135.89) (xy 255.27 135.89)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7a69a017-ce35-4df1-92d6-332ab7c41eda)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 219.71 86.36) (xy 250.19 86.36) (xy 284.48 86.36) (xy 284.48 30.48) (xy 284.48 24.13) (xy 284.48 12.7)
+				(xy 284.48 12.7) (xy 267.97 12.7) (xy 257.81 12.7) (xy 255.27 12.7) (xy 255.27 12.7) (xy 254 12.7)
+				(xy 219.71 12.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d66b1687-8448-4f56-a1e8-88877d867127)
 		)
 	)
 	(symbol
