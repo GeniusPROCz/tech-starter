@@ -514,7 +514,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -868,8 +868,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../Downloads/GERBERRRRRRRRRRRRRRRRRRRRRRR/",
-      "pos_files": "C:/Users/jansu/Downloads/GERBERRRRRRRRRRRRRRRRRRRRRRR/",
+      "plot": "C:/Users/jansu/Documents/GitHub/tech-starter/Gerber/",
+      "pos_files": "C:/Users/jansu/Documents/GitHub/tech-starter/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
