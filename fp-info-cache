@@ -1,4 +1,4 @@
-27476133659439070
+27479664638360083
 1393788-3
 TE_1393788-3
 
@@ -79240,6 +79240,13 @@ VQFN NoLead
 50
 29
 Package_DFN_QFN
+VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias_1
+VQFN, 28 Pin (Based on JEDEC MO-220-K.01 variation VHHD-3 and exposed pad nominal size from ADI Trinamic / Analog Devices, https://www.jedec.org/system/files/docs/MO-220K01.pdf, https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf#page=83), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+50
+29
+Package_DFN_QFN
 VQFN-28-1EP_5x5mm_P0.5mm_EP3.25x3.25mm
 VQFN, 28 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP251863-External-CAN-FD-Controller-with-Integrated-Transceiver-DS20006624.pdf#page=101), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
@@ -95948,6 +95955,13 @@ Logo WEEE
 0
 0
 0
+TPS79633DCQ
+VREG_TPS79633DCQ
+
+
+0
+16
+16
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
